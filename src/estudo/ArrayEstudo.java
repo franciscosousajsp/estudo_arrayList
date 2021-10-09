@@ -14,10 +14,14 @@ public class ArrayEstudo {
 		
 		ArrayList<String> arralist01 = new ArrayList<String>();
 		
-		arralist.add("A");
-		arralist.add("C");
+		arralist.add("G");
 		arralist.add("D");
-		arralist.add("B");
+		arralist.add("C");
+		arralist.add("H");
+		arralist.add("F");
+		arralist.add("I");
+		arralist.add("E");
+		arralist.add("A");
 		
 		
 		
@@ -25,14 +29,14 @@ public class ArrayEstudo {
 		
 		arralist01= arralist;
 		
-		System.out.println(arralist);
-		System.out.println(arralist01);
+		System.out.println("DESORDENADO: "+arralist);
+		System.out.println("ORDENADO: "+arralist01);
 		
 	
 		//arralist.add(1, "B");
 		
 		//System.out.println(arralist);
-		
+		/*
 		boolean existe = arralist.contains("X");
 		
 		if(existe) {
@@ -40,19 +44,20 @@ public class ArrayEstudo {
 		}else {
 			System.out.println("não existe esse elemento");
 		}
-		
-		int posicao = arralist.indexOf("c");
-		
+		*/
+		/*testar um valor não existente*/
+		//int posicao = arralist.indexOf("c");
+		/*
 		if(posicao >= 0) {
 			System.out.println("posicao existe " +posicao);
 		}else {
 			System.out.println("posicao não existe "+posicao);
 		}
+		*/
+		//arralist.remove(0);
+		//arralist.remove("C");
 		
-		arralist.remove(0);
-		arralist.remove("C");
-		
-		System.out.println(arralist);
+		//System.out.println(arralist);
 		
 	}
 
